@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 23, 2022 at 06:56 PM
+-- Generation Time: Jul 30, 2022 at 03:09 PM
 -- Server version: 10.4.24-MariaDB
 -- PHP Version: 8.1.6
 
@@ -41,7 +41,9 @@ CREATE TABLE `user_info` (
 --
 
 INSERT INTO `user_info` (`ID`, `Name`, `buying`, `selling`, `quantity`, `image`) VALUES
-(6, 'rose ', '6', '11', 26, '');
+(19, 'Nokia', '4000', '6000', 100, '4_zu_3_Nokia_1.3.png'),
+(20, 'Samsung', '6000', '10000', 100, 'Galaxy-A51_Blue_Back.jpg'),
+(21, 'Xiaomi', '5000', '9000', 100, '11tprovideo.jpg');
 
 --
 -- Indexes for dumped tables
@@ -61,7 +63,7 @@ ALTER TABLE `user_info`
 -- AUTO_INCREMENT for table `user_info`
 --
 ALTER TABLE `user_info`
-  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
+  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=23;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
